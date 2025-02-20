@@ -1,0 +1,96 @@
+body {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* Padronização de cores e fonte */
+    font-family: 'Roboto', 'sans-serif';
+    background-color:  #e2321a;
+    color: #e9e9e9;
+}
+
+.caixa {
+    margin-top: 150px;
+}
+
+.caixa img {
+    width: 180px;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sabor input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding-left: 15px;
+    margin-bottom: 7px;
+    background-color: #1e3d52;
+    color: #ffffff;
+}
+
+.preco input {
+    border-radius: 15px;
+    border: none;
+    background-color: #1e3d52;
+    color: #ffffff;
+    width: 260px;
+    height: 40px;
+    cursor: pointer;
+    align-items: left;
+    margin-bottom: 15px;
+}
+
+.registrar input {
+    border-radius: 20px;
+    border: none;
+    background-color: #1e3d52;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.registrar input:hover {
+    background-color: #727171;
+}
+
+
+
+.registrar p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tipo label{
+    color: white;
+}
+
+.tipo select {
+    border-radius: 20px;
+    border: none;
+    background-color: #1e3d52;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.desc textarea{
+    border-radius: 20px;
+    border: none;
+    background-color: #1e3d52;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
